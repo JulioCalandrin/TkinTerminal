@@ -1,21 +1,10 @@
 #######################################
 # 
-# Problems to be solved: AAAAAAAAAAAAA
+# Problems to be solved:
 # 
-# When closing the program, errors appear
-# on the console, because the thread is still
-# running. I tried "ending" the thread via a
-# flag, set when the close button was pressed
-# and checked in the serial while loop, but it
-# started interfering with the connect/diconnect
-# operations. I believe I have to study more
-# about threads and perhaps try processes.
-# For now I will be leaving as that because
-# I don't have any more time to play with this.
-#
-# Also, it only actually saves the .txt file when
-# the .exe is executed as administrator.
-# Have to solve that one as well >:C
+# It only actually saves the .txt file when
+# the buit .exe is executed as administrator.
+# (Perhaps I missed some config during build)
 # 
 ######################################
 
